@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.selectButton = new System.Windows.Forms.Button();
             this.runButton = new System.Windows.Forms.Button();
             this.oldNameLabel = new System.Windows.Forms.Label();
@@ -63,6 +64,7 @@
             // oldNameLabel
             // 
             this.oldNameLabel.BackColor = System.Drawing.SystemColors.Control;
+            this.oldNameLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.oldNameLabel.Location = new System.Drawing.Point(173, 38);
             this.oldNameLabel.Margin = new System.Windows.Forms.Padding(3);
             this.oldNameLabel.Name = "oldNameLabel";
@@ -73,6 +75,7 @@
             // 
             // newNameLabel
             // 
+            this.newNameLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.newNameLabel.Location = new System.Drawing.Point(173, 164);
             this.newNameLabel.Name = "newNameLabel";
             this.newNameLabel.Size = new System.Drawing.Size(89, 59);
@@ -82,6 +85,7 @@
             // 
             // unitLabel
             // 
+            this.unitLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.unitLabel.Location = new System.Drawing.Point(173, 101);
             this.unitLabel.Name = "unitLabel";
             this.unitLabel.Size = new System.Drawing.Size(89, 34);
@@ -92,6 +96,7 @@
             // unitComboBox
             // 
             this.unitComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.unitComboBox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.unitComboBox.FormattingEnabled = true;
             this.unitComboBox.Items.AddRange(new object[] {
             "Офис 1",
@@ -119,9 +124,9 @@
             "Февральск",
             "Циолковский",
             "Шимановск"});
-            this.unitComboBox.Location = new System.Drawing.Point(268, 109);
+            this.unitComboBox.Location = new System.Drawing.Point(271, 104);
             this.unitComboBox.Name = "unitComboBox";
-            this.unitComboBox.Size = new System.Drawing.Size(121, 21);
+            this.unitComboBox.Size = new System.Drawing.Size(156, 28);
             this.unitComboBox.TabIndex = 7;
             // 
             // panel1
@@ -167,8 +172,9 @@
             this.ClientSize = new System.Drawing.Size(642, 276);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "ФНС";
+            this.Text = "ФНС 1.01";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -8,7 +8,8 @@ namespace FNS_MFC
     public partial class MainForm : Form
     {
         OpenFileDialog ofd = new OpenFileDialog();
-        string newName;
+        string newName = "";
+        bool flag = false;
         public MainForm()
         {
             InitializeComponent();
@@ -21,10 +22,16 @@ namespace FNS_MFC
         {
             if (ofd.ShowDialog() != DialogResult.OK) return;
             oldNameFiled.Text = ofd.FileName;
+            this.newNameField.Text = "";
+            this.oldNameLabel.ForeColor = System.Drawing.Color.Black;
+            this.unitLabel.ForeColor = System.Drawing.Color.Black;
+            this.newNameLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
+            flag = true;
         }
         // Переименование файла
         private void runButton_Click(object sender, EventArgs e)
         {
+            if (!flag) return;
             // создание нового имени
             DateTime time = DateTime.Now;
             string year = time.Year.ToString();
@@ -44,6 +51,10 @@ namespace FNS_MFC
             ZipFile.Open(archiveName, ZipArchiveMode.Create).CreateEntryFromFile(newName, Path.GetFileName(newName));
             File.Delete(newName);
             newNameField.Text = archiveName;
+            this.oldNameLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.unitLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.newNameLabel.ForeColor = System.Drawing.Color.Black;
+            flag = false;
         }
         // Дополнение цифры нулями
         private string formatNumber(int number)
