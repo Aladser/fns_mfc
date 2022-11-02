@@ -1,0 +1,11 @@
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.csproj.AssemblyReference.cache
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.csproj.SuggestedBindingRedirects.cache
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.Properties.Resources.resources
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.csproj.GenerateResource.cache
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.csproj.CoreCompileInputs.cache
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.MainForm.resources
+C:\Projects\FNS_MFC\FNS_MFC\bin\Debug\FNS_MFC.exe.config
+C:\Projects\FNS_MFC\FNS_MFC\bin\Debug\FNS_MFC.exe
+C:\Projects\FNS_MFC\FNS_MFC\bin\Debug\FNS_MFC.pdb
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.exe
+C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.pdb
