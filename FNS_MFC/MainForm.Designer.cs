@@ -186,10 +186,6 @@
             this.oldNameFiled.Size = new System.Drawing.Size(441, 73);
             this.oldNameFiled.TabIndex = 8;
             // 
-            // toolTip1
-            // 
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup_1);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);

@@ -69,15 +69,5 @@ namespace FNS_MFC
         {
             return number.ToString().Length == 2 ? number.ToString() : '0'+ number.ToString();
         }
-
-        private void toolTip1_Popup(object sender, PopupEventArgs e)
-        {
-
-        }
-
-        private void toolTip1_Popup_1(object sender, PopupEventArgs e)
-        {
-
-        }
     }
 }
