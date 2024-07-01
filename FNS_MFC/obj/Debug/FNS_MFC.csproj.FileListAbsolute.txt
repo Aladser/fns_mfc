@@ -9,3 +9,13 @@ C:\Projects\FNS_MFC\FNS_MFC\bin\Debug\FNS_MFC.exe
 C:\Projects\FNS_MFC\FNS_MFC\bin\Debug\FNS_MFC.pdb
 C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.exe
 C:\Projects\FNS_MFC\FNS_MFC\obj\Debug\FNS_MFC.pdb
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\bin\Debug\FNS_MFC.exe.config
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\bin\Debug\FNS_MFC.exe
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\bin\Debug\FNS_MFC.pdb
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.csproj.AssemblyReference.cache
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.MainForm.resources
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.Properties.Resources.resources
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.csproj.GenerateResource.cache
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.csproj.CoreCompileInputs.cache
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.exe
+C:\Users\aladser\Desktop\Code\fns_mfc\FNS_MFC\obj\Debug\FNS_MFC.pdb
