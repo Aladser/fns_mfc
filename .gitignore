@@ -1,5 +1,3 @@
 .vs
 packages
-FNS_MFC/bin/Debug/*.config
-FNS_MFC/bin/Debug/*.pdb
-
+FNS_MFC/bin
